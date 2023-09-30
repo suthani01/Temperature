@@ -1,0 +1,65 @@
+body {
+        background-image: url('https://cdn.pixabay.com/photo/2016/07/24/21/01/thermometer-1539191_1280.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+    
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #9e090900;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(181, 6, 6, 0.785);
+    max-width: 550px;
+    margin: 50px auto;
+}
+.container1 {
+    background-color: #9e0909e7;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    background-color: #0051ff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}  
+.result-container {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: var(--clr-box-color);
+  }
+  
